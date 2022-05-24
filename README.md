@@ -13,6 +13,7 @@ El proyecto consiste en la clasificación de imágenes mediante el uso de redes 
 
 Estas categrías se deben al uso de [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html), un dataset con 60 000 imágenes, teniendo 6 000 imágenes por cada categoría anteriormente mencionada. Su uso será esencial para el entrenamiento de la red.
 
+### Escenarios
 Existirán dos escenarios, los cuales consisten una red convolucional para cada uno, la diferencia radica en al tamaño de imágenes para su entrenamiento, siendo que, para el primer caso, se usan 50 000 imágenes, mientras que para el segundo, únicamente 5 000. Posterior a esto, se probarán las mismas 10 000 imágenes con ambas redes para poder comprobar y comparar el comportamiento de ambas.
 
 
